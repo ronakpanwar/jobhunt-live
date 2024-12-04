@@ -30,7 +30,7 @@ const Applicents = () => {
     <div>
       <Navbar/>
       <div className='max-w-6xl m-auto'>
-    <h1 className='font-bold text-2xl'>Applicants {applicants.applications.length}</h1>
+    <h1 className='font-bold text-2xl'>Applicants {applicants?.applications?.length}</h1>
        <ApplicantsTable/>
       </div>
     </div>
