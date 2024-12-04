@@ -30,7 +30,7 @@ const Login = () => {
     e.preventDefault();
     try {
       dispatch(setLoading(true));
-      const res = await axios.post(`http://localhost:3000/api/user/login` , formData ,{
+      const res = await axios.post(`https://jobhunt-live.onrender.com/api/user/login` , formData ,{
        headers:{
          "Content-Type":"application/json"
        },
