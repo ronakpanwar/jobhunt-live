@@ -24,7 +24,7 @@ const Navbar = () => {
 
   const handleLogOut = async () => {
     try {
-      const res = await axios.get('http://localhost:3000/api/user/logout', {
+      const res = await axios.get('https://jobhunt-live.onrender.com/api/user/logout', {
         withCredentials: true
       })
       if (res.data.success) {
