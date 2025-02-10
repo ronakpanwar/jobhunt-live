@@ -39,7 +39,7 @@ const AdminJobTable = () => {
                 <TableBody>
                     {
                       filterJobs?.map((job) => (
-                            <tr>
+                            <tr key = {job._id}>
                                 <TableCell>
                                     {job?.company?.name}
                                 </TableCell>

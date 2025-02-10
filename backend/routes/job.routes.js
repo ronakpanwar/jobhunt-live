@@ -8,6 +8,6 @@ const router = Router();
 router.post('/post' , isAutherized , postJob);
 router.get('/get' , isAutherized , getAllJobs);
 router.get('/getadmin' , isAutherized , getAdminJobs)
-router.get('/get/:id' , isAutherized , getJobById)
+router.get('/get/:id' , getJobById)
 
 export default router;

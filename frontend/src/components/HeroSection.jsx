@@ -2,6 +2,7 @@ import { Search } from 'lucide-react'
 import React from 'react'
 
 const heroSection = () => {
+  
     return (
         <div className="text-center px-4 sm:px-6 md:px-10">
   <div className="flex flex-col gap-5 my-10">
